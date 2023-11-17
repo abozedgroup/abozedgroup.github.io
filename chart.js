@@ -7,8 +7,8 @@ function fetchChartData(url, containerId) {
 
 function createChart(containerId, data) {
     const chart = LightweightCharts.createChart(document.getElementById(containerId), {
-        width: width,
-        height: height,
+        width: 1024,
+        height: 800,
         layout: {
             backgroundColor: '#ffffff',
             textColor: '#333',
